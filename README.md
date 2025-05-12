@@ -10,11 +10,11 @@ The architecture and working of HeartGuard is defined in the PDF file called "Do
 HeartGuard is currently deployed using Gradio(Google Colab). We aim to shift it to permanent deployment platform like HuggingFace for future use in medical settings. 
 
 
-## Installation
+## Installation and Usage
 
 Follow these steps to set up the environment and install the necessary dependencies:
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 Clone the repository to your local machine using:
 
@@ -22,7 +22,7 @@ Clone the repository to your local machine using:
 git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection.git
 cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
 
-### 2. Install the Dependencies
+2. Install the Dependencies
 Run this command in the conda virtual env: pip install -r requirements.txt
 
 Usage
@@ -40,7 +40,7 @@ Training the Model
 Run the script to start training:
 DL-models/Resnet/Resnet_uncropped.ipynb
 
-3. Deployement
+3. Deployment
 Edit the python code to adjust the path for saved model and run the code. Navigate to the generated link on Gradio and use HeartGuard.
 
 
