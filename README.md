@@ -14,23 +14,21 @@ HeartGuard is currently deployed using Gradio(Google Colab). We aim to shift it 
 Follow the steps below to set up the environment and run HeartGuard:
 
 1. Clone the Repository
-bash
+```bash
 git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection.git
-cd HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection
+cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
 
 3. Create and Activate a Virtual Environment (Optional but Recommended)
-bash
-
+```bash
 conda create -n heartguard-env python=3.8
 conda activate heartguard-env
 
 4. Install the Dependencies
-bash
+```bash
 pip install -r requirements.txt
 📁 Folder Structure
 Ensure your ECG images are properly formatted and placed in the correct directories. The expected structure is:
-
-
+```bash
 HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection/
 ├── dataset/
 │   ├── Image Preprocessing for 1D data/
@@ -43,7 +41,7 @@ Place your preprocessed ECG images in the appropriate folders as shown above.
 
 2. Train the Model
 Run the training script to begin training:
-
+```bash
 jupyter notebook DL-models/Resnet/Resnet_uncropped.ipynb
 
 3. Deploy the Model
