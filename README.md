@@ -20,7 +20,7 @@ Clone the repository to your local machine using:
 
 ```bash
 git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection.git
-cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
+cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection ```
 
 2. Install the Dependencies
 Run this command in the conda virtual env: pip install -r requirements.txt
