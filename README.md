@@ -15,8 +15,8 @@ Follow the steps below to set up the environment and run HeartGuard:
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection.git
-cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
+        git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection.git
+        cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
 
 3. Create and Activate a Virtual Environment (Optional but Recommended)
 ```bash
