@@ -10,7 +10,7 @@ The architecture and working of HeartGuard is defined in the PDF file called "Do
 HeartGuard is currently deployed using Gradio(Google Colab). We aim to shift it to permanent deployment platform like HuggingFace for future use in medical settings. 
 
 
-## Installation and Usage
+Installation and Usage
 
 Follow these steps to set up the environment and install the necessary dependencies:
 
