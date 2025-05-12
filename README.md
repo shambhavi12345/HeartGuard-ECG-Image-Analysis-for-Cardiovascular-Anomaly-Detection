@@ -10,37 +10,51 @@ The architecture and working of HeartGuard is defined in the PDF file called "Do
 HeartGuard is currently deployed using Gradio(Google Colab). We aim to shift it to permanent deployment platform like HuggingFace for future use in medical settings. 
 
 
-Installation and Usage
-
-Follow these steps to set up the environment and install the necessary dependencies and use HeartGuard:
+🚀 Installation and Usage
+Follow the steps below to set up the environment and run HeartGuard:
 
 1. Clone the Repository
+bash
+git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection.git
+cd HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection
 
-Clone the repository to your local machine using:
+3. Create and Activate a Virtual Environment (Optional but Recommended)
+bash
 
-git clone https://github.com/your-username/HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection.git
-cd HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
+conda create -n heartguard-env python=3.8
+conda activate heartguard-env
 
-2. Install the Dependencies
-Run this command in the conda virtual env: pip install -r requirements.txt
+4. Install the Dependencies
+bash
+pip install -r requirements.txt
+📁 Folder Structure
+Ensure your ECG images are properly formatted and placed in the correct directories. The expected structure is:
 
-Usage
+
+HeartGuard-ECG-Image-Analysis-for-Cariovascular-Anomaly-Detection/
+├── dataset/
+│   ├── Image Preprocessing for 1D data/
+│   └── Processing Images for DL models/
+
+
+⚙️ Usage
 1. Prepare the Data
-Ensure your ECG images are properly formatted and placed in the correct directory. The folder structure should look like this:
-/HeartGuard-ECG-Image-Analysis-for-Cardiovascular-Anomaly-Detection
-  ├── /dataset
-  ├── /Image Preprocessing for 1D data
-  └── /Processing Images for DL models
+Place your preprocessed ECG images in the appropriate folders as shown above.
 
-2. Run the Model
-Once the environment is set up and data is in place, you can run the training or testing script. For example:
+2. Train the Model
+Run the training script to begin training:
 
-Training the Model
-Run the script to start training:
-DL-models/Resnet/Resnet_uncropped.ipynb
+jupyter notebook DL-models/Resnet/Resnet_uncropped.ipynb
 
-3. Deployment
-Edit the python code to adjust the path for saved model and run the code. Navigate to the generated link on Gradio and use HeartGuard.
+3. Deploy the Model
+Edit the Python code to adjust the path for the saved model, then run the code. A Gradio link will be generated for interactive use.
+
+
+
+🧠 Notes
+Make sure your data is clean and properly labeled.
+Gradio is used for the deployment and demonstration of predictions.
+
 
 
 
